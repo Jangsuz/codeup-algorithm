@@ -1,0 +1,7 @@
+n = int(input())
+a = list(map(int, input().split()))
+for i in range(n-1, -1, -1): #역순출력. n-1, n-2, n-3...2,1,0
+  print(a[i],end=' ')
+
+#for(시작, 끝, 증감)
+#시작 수는 포함, 끝 수는 포함하지 않음

@@ -1,0 +1,4 @@
+#파이썬 삼항 연산자!
+#print안에 한 번에 표현
+a,b = map(int, input().split())
+print(a if a>b else b)

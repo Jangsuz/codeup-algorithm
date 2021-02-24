@@ -1,0 +1,7 @@
+#문자를 하나씩 증가하고, 비교하고 싶을 때는 아스키코드로 변환하여 계산
+#end를 안하면 자동 줄바꿈
+a = input()
+i=ord('a')
+while i <= ord(a):
+  print(chr(i), end=' ')
+  i+=1

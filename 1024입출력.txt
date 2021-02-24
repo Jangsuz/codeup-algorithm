@@ -1,0 +1,8 @@
+#1024
+a = input()
+for i in a:
+  print("'"+i+"'")
+
+a = input()
+for i in range(len(a)):
+  print("'"+a[i]+"'")

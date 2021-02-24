@@ -1,0 +1,12 @@
+#정수 2개 입력받아 자동 계산하기
+#나누기는 소수점 2자리까지
+x,y = map(int, input().split())
+print(x+y)
+print(x-y)
+print(x*y)
+print(x//y)
+print(x%y)
+print('%0.2f' %(x/y))
+
+# %길이d : 자릿수 맞추기
+# %길이.자릿수f : 소수점 앞에 정렬할 길이 저장하고, 소수점 이하 자릿수 지정

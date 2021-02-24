@@ -1,0 +1,5 @@
+#세 수의 합, 평균
+#평균은 소수점 둘째 자리에서 반올림해서 첫째 자리까지 출력
+a, b, c = map(int, input().split())
+print(a+b+c)
+print('%.1f' %((a+b+c)/3))

@@ -1,0 +1,7 @@
+#파이썬에서는 !대신에 not 연산자를 쓴다.
+#not 연산자는 str으로 표현되므로, int형으로 바꿔준다.
+a = int(input())
+if a == 0:
+  print(int(not a))
+else:
+  print(int(not a))

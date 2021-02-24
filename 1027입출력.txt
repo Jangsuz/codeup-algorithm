@@ -1,0 +1,4 @@
+#년.월.일 을 일-월-년으로 출력
+#일,월은 2자리. 년은 4자리->int형식에서만 사용 가능
+year, month, day = map(int,input().split('.'))
+print('%02d'%day,'%02d'%month,'%04d'%year,sep='-')

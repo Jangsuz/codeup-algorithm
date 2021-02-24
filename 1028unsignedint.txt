@@ -1,0 +1,4 @@
+#unsigned int 형 변수 출력
+#파이썬에서 unsigned int형은 자동으로 long으로 변환
+a = int(input())
+print(a)
